@@ -10,7 +10,7 @@
         }
     ],
     "extra": {
-        "installer-name": "silverstripe-ajax-dropdown-master",
+        "installer-name": "silverstripe_ajax_dropdown",
         "expose": [
             "client"
         ]
