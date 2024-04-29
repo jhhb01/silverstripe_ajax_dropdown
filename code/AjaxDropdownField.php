@@ -118,8 +118,8 @@ class AjaxDropdownField extends DropdownField
     {
         Requirements::css('//cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/css/select2.min.css');
         Requirements::javascript('//cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.full.min.js');
-        Requirements::javascript(AJAX_DROPDOWN_DIR . ":client/javascript/ajax-dropdown-field.js");
-        Requirements::css(AJAX_DROPDOWN_DIR . ":client/css/ajax-dropdown-field.css");
+        Requirements::javascript('jhhb01/silverstripe_ajax_dropdown:client/javascript/ajax-dropdown-field.js');
+        Requirements::css('jhhb01/silverstripe_ajax_dropdown:client/css/ajax-dropdown-field.css');
 
         if ($this->value) {
             $suggestionFunction = $this->getSourceCallback();
